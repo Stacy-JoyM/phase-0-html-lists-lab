@@ -1,0 +1,7 @@
+/* styles.css */
+ul {
+    list-style-type: none; /* Remove default bullet points */
+  }
+  ul li::before {
+    content: "- "; /* Add hyphen before each list item */
+  }
